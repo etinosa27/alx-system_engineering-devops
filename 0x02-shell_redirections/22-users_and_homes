@@ -1,0 +1,4 @@
+#!/bin/bash
+cat etc/passwd/host cut -d : -f 1,6 |sort
+
+
